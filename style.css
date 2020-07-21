@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#preloader{
+    height: 100vh;
+    width: 100%;
+    background:url(preloader.gif) no-repeat center;
+    background-size: 100%,100%;
+}
+.carouselExampleCaptions{
+    height: 70vh !important;
+}
+#navbarSupportedContent{
+    float: right;
+    margin-left: 200px;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+}
+textarea{
+    width: 70%;
+}
+
+.footer{
+    display: grid;
+    height: 35%;
+    background-color:rgb(47, 47, 172);
+    place-items: center;
+    text-align: center;
+  }
+  .icons{
+    list-style: none;
+  }
+  .icons li{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  .icons li:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10%;
+    
+    transition: all 0.3s ease-in;
+  }
+  .icons li:hover:before{
+    transform: rotate(360deg);
+    border-radius: 100%;
+  }
+  .icons li a span{
+    font-size: 27px;
+    line-height: 70px;
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  .icons li:hover a span{
+    transform: scale(1.2);
+  }
+  
