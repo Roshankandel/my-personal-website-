@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+  font-family: 'Segoe UI',Tahoma,Verdana, sans-serif;
+  margin:0px;
+  padding:0px;
+
+}
 #preloader{
     height: 100vh;
     width: 100%;
@@ -16,7 +22,19 @@
     float: right;
     margin-left: 200px;
 }
-
+.job button{
+  height: 10%;
+  width:30%;
+   color: white;
+   border-radius: 17px;
+   transform: translate(-50%,-50%);
+   background-color:rgb(24, 24, 173); 
+   align-items: center;
+   transition: .6s;
+   overflow: hidden;
+   outline: none;
+}
+     
 input{
     width: 70%;
     height: 40px;
