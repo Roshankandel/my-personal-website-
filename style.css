@@ -25,7 +25,7 @@ body{
 .job button{
   height: 10%;
   width:30%;
-   color: white;
+   color:black;
    border-radius: 17px;
    transform: translate(-50%,-50%);
    background-color:rgb(24, 24, 173); 
@@ -33,6 +33,10 @@ body{
    transition: .6s;
    overflow: hidden;
    outline: none;
+}
+.job button:hover{
+background-color: rgb(2, 2, 7);
+color:blue;
 }
      
 input{
@@ -46,7 +50,7 @@ textarea{
 
 .footer{
     display: grid;
-    height: 35%;
+    height: fit-content;
     background-color:rgb(47, 47, 172);
     place-items: center;
     text-align: center;
@@ -73,6 +77,22 @@ textarea{
     border-radius: 10%;
     
     transition: all 0.3s ease-in;
+  }
+  #send{
+    height:50px; 
+    width:170px;
+    color: rgb(7, 2, 2);
+    border-radius: 17px;
+    transform: translate(-50%,-50%);
+    background-color:rgb(24, 24, 173);
+     align-items: center;
+     margin-left: 25%;
+     margin-top: 10px;
+
+  }
+  #send:hover{
+   color:rgb(7, 9, 124);
+   background-color:rgb(2, 2, 5);
   }
   .icons li:hover:before{
     transform: rotate(360deg);
